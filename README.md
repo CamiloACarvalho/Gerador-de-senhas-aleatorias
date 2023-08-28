@@ -1,5 +1,5 @@
 # Gerador-de-senhas-aleatorias
-# challengeaccepted :thuglife-parrot:
+# '#challengeaccepted'
 
 👋 Olá! Como não fujo de um bom desafio e entusiasta da programação. Minha jornada no mundo da tecnologia tem sido emocionante e repleta de aprendizado constante. Tenho uma paixão inabalável por explorar a interseção entre o código, a criatividade e a solução de problemas.
 
