@@ -1,26 +1,56 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: rgb(231, 226, 226);
     text-align: center;
-    border: 2px solid black;   
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.block {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6);;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
 }
 
 #title,
 #interaction,
-#anwser{
+#anwser,
+#password{
     font-family: 'Handjet', cursive;
 }
 
 #title{
-    font-size: 3.5em;
+    font-size: 2.75em;
 }
 
-#interaction,
+#interaction{
+    margin-top: 20px;
+    font-size: 2em;
+    word-wrap: break-word;
+    max-width: 90%;
+    padding-left: 20px;
+}
+
 #anwser{
     margin-top: 50px;
     font-size: 2em;
 }
+
 #imput{
     display: block;
     margin-left: auto;
@@ -30,13 +60,55 @@
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 0 15px;
 }
-.buttonStyle {
+
+.buttonStyle { /*https://www.brasilcode.com.br/35-botoes-css-com-animacao/ */
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: rgba(6, 40, 92, 0.8) ;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: $color;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: darken($color, 15%);
+      transition: all .3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+    &:hover {
+      color: #abcbde;
+      &:before {
+        width: 100%;
+      }
+    }
+}
+
+#password{
     display: block;
-    margin: auto;
-    padding: auto;
-    width: 130px;
-    height: 30px;
-    font-size: large;
-    border-radius: 15px;
+    font-size: 2em;
+    margin: 30px;
+    padding-top: 10px;
 }
