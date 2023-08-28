@@ -1,3 +1,7 @@
+//const show = document.getElementById('password');
+const button = document.getElementById('buttonStyle');
+const inputElement = document.getElementById('input');
+
 const randomMakerPassword = (caracteresNumber) => {
     const caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!?.,@#$%&*()_-=+:;/|";
     let password = "";
@@ -5,23 +9,8 @@ const randomMakerPassword = (caracteresNumber) => {
         const randomIndex = Math.floor(Math.random() * caracteres.length);
         password += caracteres.charAt(randomIndex);
     }
-    return password;
+    return console.log(password); //Não sei como atribuir a saída para ser exibida na tela.
 }
+const caracteresNumber = parseInt(inputElement.value);
+button.onclick = randomMakerPassword(caracteresNumber)
 
-console.log(randomMakerPassword(18));
-
-//chatGPT me ajudou daqui para baixo, mas não sei o que ta dando de errado
-
-// const generatePassword = () => { 
-//     const inputElement = document.getElementById("input");
-//     const caracteresNumber = parseInt(inputElement.value);
-//     const generatedPassword = randomMakerPassword(caracteresNumber);
-
-//     const passwordElement = document.getElementById("password");
-//     passwordElement.textContent = generatedPassword;
-// }
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     const generateButton = document.querySelector(".buttonStyle");
-//     generateButton.addEventListener("click", generatePassword);
-// });
