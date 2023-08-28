@@ -97,7 +97,7 @@ body {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: rgba(100, 124, 231, 0.6);
+    background-color: rgba(213, 220, 248, 0.6);
     transition: all .3s;
     border-radius: 10rem;
     z-index: -1;
