@@ -8,7 +8,7 @@ const randomMakerPassword = (caracteresNumber) => {
     return password;
 }
 
-//chatGPT me ajudou, mas não sei o que ta dando de errado
+//chatGPT me ajudou daqui para baixo, mas não sei o que ta dando de errado
 
 const generatePassword = () => { 
     const inputElement = document.getElementById("input");
