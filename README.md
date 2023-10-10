@@ -1,7 +1,7 @@
 # Gerador-de-senhas-aleatorias
 # '#challengeaccepted'
 
-👋 Olá! Quem me conhece sabe que eu não fujo de um bom desafio. E foi por isso que eu acabei desenvolvendo esse projeto. Sou uma pessoa entusiasta da programação. MA minha jornada no mundo da tecnologia tem sido emocionante e repleta de aprendizado constante. Tenho uma paixão inabalável por explorar a interseção entre o código, a criatividade e a solução de problemas.
+👋 Olá! Quem me conhece sabe que eu não fujo de um bom desafio. E foi por isso que eu acabei desenvolvendo esse projeto. Sou uma pessoa entusiasta da programação. Minha jornada no mundo da tecnologia tem sido emocionante e repleta de aprendizado constante. Tenho uma paixão inabalável por explorar a interseção entre o código, a criatividade e a solução de problemas.
 
 ## Projeto - Gerador de Senhas Aleatórias
 
