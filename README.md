@@ -10,10 +10,10 @@ Na origem de uma galáxia distante, onde a segurança tecnológica é ameaçada 
 ## Como Acompanhar
 
 💻 Animado para testemunhar a jornada? Acompanhe o processo em [GitHub](https://github.com/CamiloACarvalho) e fique ligado para uma experiência incrível! Lembre-se de que o resultado final estará disponível no [GitHub Pages](https://github.com/CamiloACarvalho/Gerador-de-senhas-aleatorias) para compartilhar com a comunidade.
-
 <div align = "center">
+  <img align = "center" src="https://media.tenor.com/umwjVbz97CEAAAAC/pose-crisman-white.gif" width="150">
+</div>
 
-<img src="https://media.tenor.com/umwjVbz97CEAAAAC/pose-crisman-white.gif" width="150">
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Desafio Trybe - Gerador de Senhas Aleatórias
